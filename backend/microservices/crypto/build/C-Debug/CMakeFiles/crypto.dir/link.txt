@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wl,--dependency-file=CMakeFiles/crypto.dir/link.d CMakeFiles/crypto.dir/main.cpp.o -o crypto  /usr/lib/libssl.so /usr/lib/libcrypto.so

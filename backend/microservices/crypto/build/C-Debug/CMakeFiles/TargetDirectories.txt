@@ -1,0 +1,7 @@
+/home/user/Desktop/projects/data_storage/backend/microservices/crypto/build/C-Debug/CMakeFiles/crypto.dir
+/home/user/Desktop/projects/data_storage/backend/microservices/crypto/build/C-Debug/CMakeFiles/edit_cache.dir
+/home/user/Desktop/projects/data_storage/backend/microservices/crypto/build/C-Debug/CMakeFiles/rebuild_cache.dir
+/home/user/Desktop/projects/data_storage/backend/microservices/crypto/build/C-Debug/CMakeFiles/list_install_components.dir
+/home/user/Desktop/projects/data_storage/backend/microservices/crypto/build/C-Debug/CMakeFiles/install.dir
+/home/user/Desktop/projects/data_storage/backend/microservices/crypto/build/C-Debug/CMakeFiles/install/local.dir
+/home/user/Desktop/projects/data_storage/backend/microservices/crypto/build/C-Debug/CMakeFiles/install/strip.dir
