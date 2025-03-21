@@ -1,0 +1,171 @@
+.login_wrapper {
+  h3{
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  display: flex;
+  /*justify-content: center;*/
+  flex-direction: column;
+  align-items: center;
+
+  width: fit-content;
+  height: fit-content;
+
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 20px;
+
+  min-width: 326px;
+  min-height: 318px;
+}
+
+.inputs{
+  margin-top: 6vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_wrapper {
+  display: inline-flex;
+
+  width: fit-content;
+  height: fit-content;
+
+  align-items: center; /* Выравниваем элементы по вертикали */
+  margin-bottom: 15px;
+}
+
+.input_wrapper p {
+  width: 80px; /* Фиксированная ширина для текстовых меток */
+  margin: 0; /* Убираем отступы у параграфа */
+  text-align: right; /* Выравниваем текст по правому краю */
+  margin-right: 10px; /* Отступ между текстом и input */
+}
+
+.input_wrapper input {
+  border: 0;
+  border-radius: 10px;
+  padding: 8px; /* Добавляем отступы внутри input */
+  flex-grow: 1; /* Растягиваем input на оставшееся пространство */
+}
+
+.input_wrapper input:focus {
+  outline: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  
+}
+
+.btn{
+  margin-top: 25px;
+
+  width: fit-content;
+  height: 35px;
+
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(218, 227, 253);
+}
+
+.submit-btn:hover{
+  background-color: rgb(202, 202, 255);
+}
+
+.header_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  margin-top: 10px;
+  a{
+    color: rgb(115, 77, 255);
+  }
+  .item{
+    margin-right: 10px;
+    margin-left:  10px;
+  }
+  background-color: aliceblue;
+  border-radius: 20px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  width: fit-content;
+}
+
+.files_wrapper{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  max-height: 300px;
+  overflow: auto;
+
+  .item{
+    display: flex;
+    justify-content: space-between;
+
+    .deleteFile{
+      margin-right: 10px;
+      cursor: pointer;
+      margin-left: auto;
+      border: 0;
+      background-color: aliceblue;
+      border-radius: 9px;
+    }
+
+    a{
+      margin-right: 10px;
+      font-style: normal;
+      text-decoration: none;
+      color: rgb(255, 94, 183);
+    }
+    background-color: rgb(194, 189, 255);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: fit-content;
+  }
+}
+
+.file_input_wrapper{
+  margin-top: 40px;
+  .send_file{
+    width: fit-content;
+    height: fit-content;
+    border: 0;
+    background-color: aliceblue;
+    border-radius: 9px;
+  }
+  border: 0;
+}
+
+
+.files_input{
+  background-color: aliceblue;
+  height: fit-content;
+}
+
+.notification_wrapper{
+  padding-left: 10px;
+  padding-right: 10px;
+  width: fit-content;
+  height: fit-content;
+
+  background-color: rgb(188, 255, 235);
+  border-radius: 20px;
+
+  position: absolute;
+  left: 86dvw;
+  bottom: 40px;
+}
